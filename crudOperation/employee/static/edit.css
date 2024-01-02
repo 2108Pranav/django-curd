@@ -1,0 +1,36 @@
+/* Style for the form container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 500px;
+}
+
+/* Style for form labels */
+.col-form-label {
+  font-weight: bold;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for submit button */
+.btn-success {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Additional styling can be added based on your design requirements */

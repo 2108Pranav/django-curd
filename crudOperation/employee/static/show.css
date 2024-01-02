@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table header */
+thead {
+  background-color: #343a40;
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+}
+
+/* Style for alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for Actions column links */
+td a {
+  margin-right: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for Add New Record button */
+.btn-primary {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
